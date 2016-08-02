@@ -77,7 +77,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
  *                                        |      |      |       |      |      |
  *                                 ,------|------|------|       |------+------+------.
  *                                 |      |      |      |       |      |      |      |
- *                                 |      |      |------|       |------| VolUp|VolDwn|
+ *                                 |      |      |------|       |------|VolDwn| VolUp|
  *                                 |      |      |      |       | Mute |      |      |
  *                                 `--------------------'       `--------------------'
  */
@@ -100,7 +100,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
                         KC_TRNS,KC_DOT, KC_TRNS,KC_TRNS,KC_TRNS,
        KC_TRNS, KC_TRNS,
        KC_TRNS,
-       KC_MUTE, KC_VOLU, KC_VOLD
+       KC_MUTE, KC_VOLD, KC_VOLU
 ),
 };
 
